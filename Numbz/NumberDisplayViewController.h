@@ -10,6 +10,12 @@
 
 @interface NumberDisplayViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *number;
+
+- (IBAction)numberPressed:(UIButton *)sender;
+- (IBAction)handleTap:(UITapGestureRecognizer *)sender;
 - (IBAction)handlePan:(UIPanGestureRecognizer *)sender;
+- (IBAction)donePressed;
+- (IBAction)clearPressed;
 
 @end
