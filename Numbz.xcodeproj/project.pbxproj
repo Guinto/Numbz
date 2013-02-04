@@ -17,8 +17,9 @@
 		D91A3A6F16BFD9DC00CB2237 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D91A3A6E16BFD9DC00CB2237 /* Default@2x.png */; };
 		D91A3A7116BFD9DC00CB2237 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D91A3A7016BFD9DC00CB2237 /* Default-568h@2x.png */; };
 		D91A3A7416BFD9DC00CB2237 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91A3A7216BFD9DC00CB2237 /* MainStoryboard.storyboard */; };
-		D91A3A7716BFD9DC00CB2237 /* CountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91A3A7616BFD9DC00CB2237 /* CountViewController.m */; };
+		D91A3A7716BFD9DC00CB2237 /* StartWatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91A3A7616BFD9DC00CB2237 /* StartWatchViewController.m */; };
 		D91A3A7F16BFE5E800CB2237 /* RandomNumberGeneratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91A3A7E16BFE5E800CB2237 /* RandomNumberGeneratorViewController.m */; };
+		D924EF3916BFEDF000CBC118 /* NumberDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D924EF3816BFEDEF00CBC118 /* NumberDisplayViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,10 +37,12 @@
 		D91A3A6E16BFD9DC00CB2237 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		D91A3A7016BFD9DC00CB2237 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D91A3A7316BFD9DC00CB2237 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		D91A3A7516BFD9DC00CB2237 /* CountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountViewController.h; sourceTree = "<group>"; };
-		D91A3A7616BFD9DC00CB2237 /* CountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountViewController.m; sourceTree = "<group>"; };
+		D91A3A7516BFD9DC00CB2237 /* StartWatchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartWatchViewController.h; sourceTree = "<group>"; };
+		D91A3A7616BFD9DC00CB2237 /* StartWatchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartWatchViewController.m; sourceTree = "<group>"; };
 		D91A3A7D16BFE5E800CB2237 /* RandomNumberGeneratorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomNumberGeneratorViewController.h; sourceTree = "<group>"; };
 		D91A3A7E16BFE5E800CB2237 /* RandomNumberGeneratorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomNumberGeneratorViewController.m; sourceTree = "<group>"; };
+		D924EF3716BFEDEF00CBC118 /* NumberDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberDisplayViewController.h; sourceTree = "<group>"; };
+		D924EF3816BFEDEF00CBC118 /* NumberDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberDisplayViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,10 +92,12 @@
 				D91A3A6916BFD9DC00CB2237 /* AppDelegate.h */,
 				D91A3A6A16BFD9DC00CB2237 /* AppDelegate.m */,
 				D91A3A7216BFD9DC00CB2237 /* MainStoryboard.storyboard */,
-				D91A3A7516BFD9DC00CB2237 /* CountViewController.h */,
-				D91A3A7616BFD9DC00CB2237 /* CountViewController.m */,
+				D91A3A7516BFD9DC00CB2237 /* StartWatchViewController.h */,
+				D91A3A7616BFD9DC00CB2237 /* StartWatchViewController.m */,
 				D91A3A7D16BFE5E800CB2237 /* RandomNumberGeneratorViewController.h */,
 				D91A3A7E16BFE5E800CB2237 /* RandomNumberGeneratorViewController.m */,
+				D924EF3716BFEDEF00CBC118 /* NumberDisplayViewController.h */,
+				D924EF3816BFEDEF00CBC118 /* NumberDisplayViewController.m */,
 				D91A3A6116BFD9DC00CB2237 /* Supporting Files */,
 			);
 			path = Numbz;
@@ -180,8 +185,9 @@
 			files = (
 				D91A3A6716BFD9DC00CB2237 /* main.m in Sources */,
 				D91A3A6B16BFD9DC00CB2237 /* AppDelegate.m in Sources */,
-				D91A3A7716BFD9DC00CB2237 /* CountViewController.m in Sources */,
+				D91A3A7716BFD9DC00CB2237 /* StartWatchViewController.m in Sources */,
 				D91A3A7F16BFE5E800CB2237 /* RandomNumberGeneratorViewController.m in Sources */,
+				D924EF3916BFEDF000CBC118 /* NumberDisplayViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -38,23 +38,30 @@
 	return YES;
 }
 
+- (IBAction)handleTap:(UITapGestureRecognizer *)sender
+{
+	if (sender.state == UIGestureRecognizerStateEnded) {
+		self.randomNumber = arc4random_uniform(HIGHEST_NUMBER);
+	}
+}
+
 - (IBAction)handlePan:(UIPanGestureRecognizer *)sender
 {
 	BOOL pannedRight = [sender translationInView:self.view].x > 0;
 	if (sender.state == UIGestureRecognizerStateBegan && pannedRight) {
 		[self.navigationController popViewControllerAnimated:YES];
 	}
+	
+	BOOL pannedLeft = [sender translationInView:self.view].x < 0;
+	if (sender.state == UIGestureRecognizerStateBegan && pannedLeft) {
+		[self performSegueWithIdentifier:@"showNumberDisplay" sender:self];
+	}
 }
 
-- (void)viewDidLoad
+- (void)viewWillAppear:(BOOL)animated
 {
-    [super viewDidLoad];
+	[super viewWillAppear:animated];
 	self.randomNumber = arc4random_uniform(HIGHEST_NUMBER);
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
 }
 
 @end

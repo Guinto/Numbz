@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CountViewController : UIViewController
+@interface StartWatchViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UILabel *counter;
 - (IBAction)handleTap:(UITapGestureRecognizer *)sender;

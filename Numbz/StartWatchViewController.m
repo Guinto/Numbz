@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 Trent Ellingsen. All rights reserved.
 //
 
-#import "CountViewController.h"
+#import "StartWatchViewController.h"
 
-@interface CountViewController ()
+@interface StartWatchViewController ()
 
 @property (nonatomic) NSInteger time;
 @property (nonatomic) BOOL started;
@@ -20,7 +20,7 @@
 
 @end
 
-@implementation CountViewController
+@implementation StartWatchViewController
 
 - (UIColor *)goColor
 {
